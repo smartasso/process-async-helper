@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyName>SmartAsso.ProcessAsyncHelper</AssemblyName>
+        <RootNamespace>SmartAsso.ProcessAsyncHelper</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>SmartAsso.ProcessAsyncHelper</PackageId>
+        <Authors>Kévin Germain</Authors>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <TargetFrameworks>net5.0;netcoreapp3.1</TargetFrameworks>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <DebugSymbols>false</DebugSymbols>
+    </PropertyGroup>
+
+</Project>
