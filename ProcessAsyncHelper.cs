@@ -20,7 +20,11 @@ namespace SmartAsso.ProcessAsyncHelper
         {
             var result = new ProcessAsyncResult();
 
-            using var process = new Process() {StartInfo = startInfo, EnableRaisingEvents = true};
+            using var process = new Process()
+            {
+                StartInfo = startInfo, 
+                EnableRaisingEvents = true
+            };
             
             // List of tasks to wait for a whole process exit
             var processTasks = new List<Task>();
